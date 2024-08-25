@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d2028;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust according to your logo size */
+    margin-right: 10px;
+  }
+  
+  .navbar-logo h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .navbar-search button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffa500;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-links .navbar-helpline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links i {
+    margin-right: 5px;
+  }
+  
